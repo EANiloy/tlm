@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: Scene5(A)
+  m_EditorClassIdentifier: 
+  storyText: "Its easy now walking through the forest. You are moving north keeping
+    the sun on your right. You plan to take a rest. You have brought some berries/bananas
+    with you but you are too thirsty to eat. You sit on the grass and think about
+    how everything might have happened but still nothing. You don't know where you
+    are or where you are heading. You need some answers but now you need some water.\r"
+  button1: 'Keep on sitting  '
+  button2: 'Start walking  '
+  nextStates:
+  - {fileID: 11400000, guid: 7e1789c181889d247beeed7749333633, type: 2}
+  - {fileID: 11400000, guid: 35daa8a7505d48b4caf5bf2201efa35c, type: 2}
+  _dayNumber: 

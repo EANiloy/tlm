@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: Scene2Op2
+  m_EditorClassIdentifier: 
+  storyText: 'You try to move, you tremble with pain all over your body. It feels
+    like someone or a group of people beat you up badly. You try to remember what
+    happened once again but all you could feel is more pain in your brain. You realize
+    you need to survive this wild more than you need to remember stuff. So you concentrate
+    to get up and stand. As soon as you lift your body you get tripped and fall on
+    the ground hurting yourself even more. Now you can feel your legs are tied together.
+    What do you do?
+
+'
+  button1: Try to open the rope with your hand
+  button2: Look around to find something to cut the rope
+  nextStates:
+  - {fileID: 11400000, guid: a2453ac2c76c6dd4d90aaff74835d363, type: 2}
+  - {fileID: 11400000, guid: 5b767dfb28187cd45babf5ddf85845e8, type: 2}
+  _dayNumber: One

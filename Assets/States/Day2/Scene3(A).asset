@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: Scene3(A)
+  m_EditorClassIdentifier: 
+  storyText: 'You head east facing the sun. within a dead end you come to a dead
+    end. The jungle is so dense in front, you cannot go that way anymore without
+    any tools.
+
+
+
+    But you notice the thorny bushes in the north side are getting
+    thinner. You can try to go that way but it may hurt you.
+
+
+
+'
+  button1: Go North
+  button2: Go Back
+  nextStates:
+  - {fileID: 11400000, guid: a07517667913d3149860f3aca9e1bf4c, type: 2}
+  - {fileID: 11400000, guid: 64c33fe7215030a4ab7c6333e489e90a, type: 2}
+  _dayNumber: 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: Scene6(A)
+  m_EditorClassIdentifier: 
+  storyText: "You keep on sitting. You can see the gentle breeze on the leaves. Birds
+    are chirping all around. Butterflies are flying. The grass is dancing along the
+    wind. Its really a beautiful place but sadly you have to get past all of these
+    and head on.\r"
+  button1: 'Keep on sitting  '
+  button2: 'Start Walking  '
+  nextStates:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 35daa8a7505d48b4caf5bf2201efa35c, type: 2}
+  _dayNumber: 

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: Scene5(B)
+  m_EditorClassIdentifier: 
+  storyText: "You are afraid of the wild life. So you pick a tree and start climbing.
+    You will be safe there for the night. You decide to leave all the other necessities
+    for tomorrow. \r\n\r\nYou got on a high branch and try to be comfortable. You
+    start to think how everything happened but nothing. Your memory is still empty.
+    You realize you need to find food, water and some sort of shelter if you want
+    to find your way out of the forest.\r\n\r\nWhile thinking all of these you doze
+    off."
+  button1: Next Day
+  button2: 
+  nextStates:
+  - {fileID: 11400000, guid: d64e78d5fda2ed04bae75a8fa91d7d3c, type: 2}
+  _dayNumber: One

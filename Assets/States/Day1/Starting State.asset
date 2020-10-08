@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: Starting State
+  m_EditorClassIdentifier: 
+  storyText: "You open your eyes and find yourself lying in a jungle. It's dark and
+    you can hear the howling of wolves from a good distance. You look at yourself
+    and see your body painted with colors and something is written all over your
+    body. Whatever piece of cloth you have on your body can barely be called clothing.
+    You're feeling dizzy. Vision is getting blurred from time to time since you woke
+    up. You are trying to remember what happened and how you got here, if you were
+    alone or had any companion with you but you can't. Whenever you are trying to
+    pressure your brain it hurts. It feels like you are hungry too. \r\n"
+  button1: 'Try to sit up '
+  button2: 'Try to stand '
+  nextStates:
+  - {fileID: 11400000, guid: e6f34d31995770b489aca9e9353183c5, type: 2}
+  - {fileID: 11400000, guid: 688609143ba6f774abda2ea31e102e17, type: 2}
+  _dayNumber: One

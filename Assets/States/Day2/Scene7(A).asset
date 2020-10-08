@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: Scene7(A)
+  m_EditorClassIdentifier: 
+  storyText: "You start to follow the birds. They look like they know where they
+    are going. You turn left keeping an eye on the birds. Then you turn left again.
+    Now they are heading in a straight direction. You keep on following them.Suddenly
+    you are halted by some thick bush. There are thorns everywhere. It would cost
+    you maybe even your flesh to go through there but it maybe worth it. Your guts
+    are saying there is water just past these thorns.\r"
+  button1: 'Go through the thorns.  '
+  button2: 'Go back to where you were sitting.  '
+  nextStates:
+  - {fileID: 11400000, guid: 64c33fe7215030a4ab7c6333e489e90a, type: 2}
+  - {fileID: 11400000, guid: 50c2779d88f63d84c9b87203dd6e5bd7, type: 2}
+  _dayNumber: 

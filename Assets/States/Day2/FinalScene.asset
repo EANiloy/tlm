@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: FinalScene
+  m_EditorClassIdentifier: 
+  storyText: 'You stay beside the waterfall to see if anyone comes. While keeping
+    an eye you prepare for the night. You collect firewood and also found a hair.
+    It will be a good meal tonight.
+
+    
+
+    Night has fallen. There is no cloud
+    in the sky you can see the moon clearly. You set up a small fire. You think about
+    the whole day. But you are happy that you have food and water with you. You are
+    afraid of wild life but what can you do about it. You decide tomorrow you are
+    going to follow the water stream downhill to see if there are any people down
+    there.
+
+    
+
+    You fall asleep.'
+  button1: That Night
+  button2: 
+  nextStates:
+  - {fileID: 11400000, guid: fc756c496f854e44ea81bc0991dd3732, type: 2}
+  _dayNumber: 

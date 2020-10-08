@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: Scene8
+  m_EditorClassIdentifier: 
+  storyText: "Luckily you left marks as you moved so you could find where you were
+    sitting. You are half dead from all the walking and sweat. Your body needs water
+    more than you can think. But you keep on walking\r."
+  button1: 'Keep going north  '
+  button2: 
+  nextStates:
+  - {fileID: 11400000, guid: bf1655a94e8d11448a38c807ae232659, type: 2}
+  _dayNumber: 

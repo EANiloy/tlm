@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: Scene3(B)_4(A)
+  m_EditorClassIdentifier: 
+  storyText: 'Its been sometime you got to your senses. The world around you is now
+    more visible. The sky is cloudy but there is moon light. The trees are dancing
+    with the wind. You look around. You can see small to large rocks on the ground
+    you start to look for a small but sharp rock. But its out of your reach. You
+    start crawling to it. You can hear the wolves howling in the distance. You have
+    to hurry. Finally you reach the rock and start cutting the ropes. You are free
+    at last. You stand up and walk a little to let the blood start flowing. Now you
+    have to decide how to spend the night. You cannot stay in this darkness unless
+    you want to be dead meat.
+
+    
+
+'
+  button1: Decide to start a fire
+  button2: Decide to spend the night on a tree
+  nextStates:
+  - {fileID: 11400000, guid: da720753a504a6c44a552517fc16292d, type: 2}
+  - {fileID: 11400000, guid: aa5e34d4cfe13e64482c94225c621aaf, type: 2}
+  _dayNumber: One

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: Scene2
+  m_EditorClassIdentifier: 
+  storyText: 'You ate $. They were fulfilling. Now you need to find some water. In
+    the daylight you can see you have cuts and bruises on your body. Your legs are
+    still blue from being tied up. You need to wash your wounds too. You stand in
+    the middle of the jungle not knowing where to go. The sun is behind your head
+    so you are facing the west. You cannot go to north and south as those sides are
+    jam packed with thorny bushes. Being an intelligent you decide to mark your ways
+    as you go.
+
+    
+
+'
+  button1: 'Go East  '
+  button2: Go West
+  nextStates:
+  - {fileID: 11400000, guid: 3940b4d380e0ac045bbe9da4d29d55b0, type: 2}
+  - {fileID: 11400000, guid: c08678c195d46ac4cb0ecc2c88aaccf4, type: 2}
+  _dayNumber: Two

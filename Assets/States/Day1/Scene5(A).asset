@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c781e6545df249a6a7362cb0bf5dc, type: 3}
+  m_Name: Scene5(A)
+  m_EditorClassIdentifier: 
+  storyText: 'You start to look for some dry wood. you see some dead branches on
+    the ground. You collect them into a pile and start hitting two rocks to get a
+    spark. Within a few minutes you have a warm cozy fire in front of you. Now as
+    you are settled in you start to think what might have been going on. You still
+    cannot remember why or how you got here. Got where actually?
+
+    
+
+    You
+    leave it as a problem for tomorrow. Also you need to find food and water too.
+    You realize it is foolish attempt to go out in the dark tonight, so you lie on
+    the floor and try to sleep.  '
+  button1: Next Day
+  button2: 
+  nextStates:
+  - {fileID: 11400000, guid: d64e78d5fda2ed04bae75a8fa91d7d3c, type: 2}
+  _dayNumber: One
